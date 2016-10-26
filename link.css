@@ -1,0 +1,21 @@
+
+/* this is all the stuff to change the hieght and width of the table as well as to change the size of the boder lines.*/
+table,td,th{
+    border: 500px solid black;
+}
+table,td, th{
+	width: 100px;
+	}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td{
+    height: 100px;
+}
+
+th{
+    background-color: 	#FF4500;
+
+}
