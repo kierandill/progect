@@ -1,4 +1,4 @@
-.drop {
+drop {
     background-color:	#A52A2A ;
     color: white;
     padding: 16px;
@@ -20,6 +20,8 @@
     min-width: 16px;
     box-shadow: 2px 9px 16px 0px rgba(0,0,0,0.2);
 }
+}
+
 
 
 .dropdown-content a {
@@ -50,4 +52,3 @@ li a{
 ul{
 	overflow:;
 	list-style-type:none;
-}
