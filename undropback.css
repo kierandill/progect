@@ -1,4 +1,6 @@
-drop {
+/* this is the drop down for universical page*/
+
+.drop {
     background-color:	#A52A2A ;
     color: white;
     padding: 16px;
