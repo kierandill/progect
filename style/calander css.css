@@ -1,6 +1,9 @@
 
-table, td, th {
+
+table, th, td{
     border: 1px solid black;
+	width: 20px;
+	height:40px;
 }
 
 table {
@@ -8,8 +11,8 @@ table {
     width: 100%;
 }
 
-td {
-    height: 100px;
+td{
+    
 	text-align: right;
  vertical-align: text-top;
 }
