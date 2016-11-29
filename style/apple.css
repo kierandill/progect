@@ -1,9 +1,7 @@
 /* this is for the backround for student page*/
 html{
 	background: url(http://bcsd.com/nts/files/2014/08/apple-on-desk.gif) no-repeat center center fixed; 
-		-webkit-background-size: cover;
-	
-		-o-background-size: cover;
+
 		background-size: cover;
 }
 .texts{
