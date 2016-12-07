@@ -1,8 +1,8 @@
 
 
-table, th. td{
+table, th, td{
     border: 10px solid black;
-	width: 9px;
+	width: 100px;
 	height:40px;
 }
 
