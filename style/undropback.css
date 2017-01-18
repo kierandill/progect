@@ -54,3 +54,6 @@ li a{
 ul{
 	overflow:;
 	list-style-type:none;
+	p{
+	color: white;
+}

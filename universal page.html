@@ -1,11 +1,31 @@
-<html>
+<html class="coral">
 	<head>
+	<script>
+	function startTime() {
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('txt').innerHTML =
+    h + ":" + m + ":" + s;
+    var t = setTimeout(startTime, 500);
+ }
+ function checkTime(i) {
+    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+}
+</script>
 <link rel="stylesheet" href="style/unidrophomework.css">
-<script src="java.js"> </script>
+
 	</head>
-	<script> src = "meme"</script>
-		<body>
-								
+
+<body onload="startTime()">
+					
+<div id="back" >
+	<center><div id="txt"></div></center>
+</div>			
 									
 												
 												<!-- this is a drop down bar for the calander link-->
@@ -47,8 +67,8 @@
 						
 	
 	<!--this is for the backround-->
-			<html class="coral"></html>
-		</body>
+
+</body>
 	
 </html>
 

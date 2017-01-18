@@ -50,3 +50,13 @@ html.coral{
 		-o-background-size: cover;
 		background-size: cover;
 }
+#back{
+	background-color: black;
+	color: white;
+	margin: 0 auto;
+	width: 10%;
+	padding: 10px;
+}
+p{
+	color: white;
+}
