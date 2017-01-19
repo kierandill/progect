@@ -1,0 +1,15 @@
+/* this is for the backround for student page*/
+.studentlogin{
+	background: url(http://bcsd.com/nts/files/2014/08/apple-on-desk.gif) no-repeat center center fixed; 
+
+		background-size: cover;
+}
+.texts{
+color: white;
+}
+.introduction{
+	color:orange;
+}
+p{
+	color: white;
+}
