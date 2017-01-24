@@ -58,7 +58,26 @@ p{
 	font-size: 100px;
 }
 
+.clock{
+	background-color:black;
+	color:white;
+	width:70px;
+	padding: 5px 10px 5px 10px;
+	text-align:center;
+	margin: auto;
+	}
+body{
+	background: url(https://images.designtrends.com/wp-content/uploads/2015/12/22100209/Green-Chalkboard-Texture.jpg);
+}
 
+body#universal {
+	background: url(http://www.settingforfour.com/wp-content/uploads/2015/01/sherwin-williams-coral-reef-2015-color-of-the-year.jpg) no-repeat center center fixed; 
+		-webkit-background-size: cover;
+	
+		-o-background-size: cover;
+		background-size: cover;
+}	
+ 
 /* this is for student login page*/
 .studentlogin{
 	background: url(http://bcsd.com/nts/files/2014/08/apple-on-desk.gif) no-repeat center center fixed; 
@@ -71,9 +90,7 @@ color: white;
 .introduction{
 	color:orange;
 }
-p{
-	color: white;
-}
+
 /* for universal page*/
 
 .dropbtn {
@@ -114,10 +131,8 @@ p{
 .dropdown:hover .dropbtn {
     background-color: #3e8e41;
 }
-/* moves the youtube vidoe to the write*/
-p.music {
-   float: right;
-}
+/* moves the youtube vidoe to the right*/
+
 /* this is for the backround */
 html.coral{
 	background: url(http://www.settingforfour.com/wp-content/uploads/2015/01/sherwin-williams-coral-reef-2015-color-of-the-year.jpg) no-repeat center center fixed; 
