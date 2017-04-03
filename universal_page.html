@@ -1,0 +1,87 @@
+<html>
+	<head>
+	<script>
+	function startTime() {
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('txt').innerHTML =
+    h + ":" + m + ":" + s;
+    var t = setTimeout(startTime, 500);
+	}
+	function checkTime(i) {
+    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+	}
+	function signin() {
+    document.getElementById("demo").innerHTML = "time to learn";
+}
+
+
+	</script>
+	<link rel="stylesheet" href="style/unidrop.css">
+
+	</head>
+
+		<body id="universal" onload="startTime()">
+							
+			<div id="back" >
+				<center><div id="txt"></div></center>
+			</div>			
+												
+				<!-- this is a drop down bar for the calander link-->
+					<div class="dropdown">
+						<button class="dropbtn">Calendar</button>
+						<div class="dropdown-content">
+						<a href="calander.html#September">September</a>
+						<a href="#">October </a>
+						<a href="#">November</a>
+						<a href="#">December</a>
+						<a href="#">January</a>
+						<a href="#">Febuary</a>
+						<a href="#">March</a>
+						<a href="#">April</a>
+						<a href="#">May</a>
+						<a href="#">June</a>
+						<a href="#">July</a>
+						<a href="#">August</a>
+						</div>											
+					</div>										
+																	
+																
+									
+									<!--this drop down is for the possible courses-->
+								<div class="dropdown">
+									<button class="dropbtn">Classes</button>
+										<div class="dropdown-content">
+											<a href="english homework.html"> English</a>
+											<a href="#">  Ethics</a>    
+											<a href="#">French</a>
+											<a href="#">History </a>
+											<a href="#">Math</a>
+											<a href="#"> Option course</a>
+											<a href="#"> Other</a>
+											<a href="#">Science</a>
+									
+										</div>
+								</div>
+						
+														
+				<p></p>
+				<form>
+  First name:<br>
+  <input type="text" name="firstname"><center><textarea rows="40" cols="50"></textarea></center></form>						
+				<form>
+  First name:<br>
+  <input type="text" name="firstname">
+  </form>
+		</body>
+	
+</html>
+
+
+
+
