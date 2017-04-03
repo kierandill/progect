@@ -1,6 +1,29 @@
 <html>
 	<head>
 	<script>
+	function login() { /* set up variable person*/
+	var person = prompt("what is your username");
+	if (person = "kieran");{
+		/* only happens if u get the user name*/
+		var password = prompt("what is your password");
+		/* to make the password*/
+		if (password = "dill");{
+		confirm("welcome to the page");
+		}
+	}	  /*if wrong password*/
+	else if (password != "dill");{
+		confirm("invalid password")
+	 }
+								 
+								
+									
+	/* if it is a wrong username*/
+	else if(person != "kieran");{
+	confirm("invalid username");
+	}
+ 
+ }
+   <!--
 	function startTime() {
     var today = new Date();
     var h = today.getHours();
@@ -15,7 +38,7 @@
 	function checkTime(i) {
     if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
     return i;
-	}
+	}-->
 	</script>
 	<link rel="stylesheet" href="style/unidrop.css">
 
@@ -31,7 +54,7 @@
 					<div class="dropdown">
 						<button class="dropbtn">Calendar</button>
 						<div class="dropdown-content">
-						<a href="#">September</a>
+						<a href="calander.html#September">September</a>
 						<a href="#">October </a>
 						<a href="#">November</a>
 						<a href="#">December</a>
@@ -64,9 +87,15 @@
 										</div>
 								</div>
 						
-									
-				
-				
+														
+				<p></p>
+				<form>
+  First name:<br>
+  <input type="text" name="firstname"><center><textarea rows="40" cols="50"></textarea></center></form>						
+				<form>
+  First name:<br>
+  <input type="text" name="firstname">
+  </form>
 		</body>
 	
 </html>
