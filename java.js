@@ -1,21 +1,32 @@
- function login() { /* set up variable person*/
+
+ function login()/*this is the opening function*/ { 
+ var username = ["kieran","ryan", "christ", "luca"];
+	var pass =["dill","knowlezs","aoun","picci"]
+	
+/*vars to cheak the users response*/
 	var person = prompt("what is your username");
-	var password = prompt("what is your password");
-	
-	if (person === "kieran"){
-		/* only happens if u get the user name*/
-		/* to make the password*/
-		
-		if (password === "dill"){
-			alert("welcome to the page");
-			location.href = "universal_page.html";
-	}else{
-			alert("invalid username");	
-		}
-	}else{
-		alert("invalid password"); 
-	 }								
-	/* if it is a wrong username*/
-	
-  
+	for (i = 0; i < username.length; i++) /*opens for loop*/{
+			if (person === username[i])/*opens if*/ {
+				/*cheak password*/
+			var password = prompt("what is your password");
+				for (f = 0; f < pass.length; f++) /*all to cheak password*/{
+					if (password =[f]) {
+						window.location /*if it ois achived then it will send u to this site*/= 'file://locker/2018/dillk/Desktop/dank%20progect%20swag%20419/universal%20page.html';
+						
+						}
+						
+						
+						
+				}			
+										
+					
+							
+			}
+				else{/*just to do nothing*/
+					
+				}
+	}
  }
+	
+	
+ 
